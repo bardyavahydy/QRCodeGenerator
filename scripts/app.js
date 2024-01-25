@@ -8,7 +8,7 @@ const generateQRCodeColor = () =>{
     let red = Math.floor(Math.random() * 258)
     let blue = Math.floor(Math.random() * 258)
     let green = Math.floor(Math.random() * 258)
-    return `${red}-${blue}-${green}`
+    return `${red}-${green}-${blue}`
 }
 
 const generateQRCodeHandler = () =>{
